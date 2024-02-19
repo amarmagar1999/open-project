@@ -1,4 +1,4 @@
-
+//controller element//
 const controller = document.querySelector(".controller");
 
 let flag = 0;
@@ -16,6 +16,7 @@ controller.addEventListener('click', e => {
 
 });
 
+//slider function
 const sliderImage = (num) => {
 
   const slider = document.querySelectorAll(".slider");
